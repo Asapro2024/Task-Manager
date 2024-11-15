@@ -1,0 +1,27 @@
+@media (max-width: 500px) {
+    .card {
+        width: 80%;
+        margin: 40px 10% 20px 1 0px;
+        text-align: center;
+        justify-content: center;
+    }
+    .taskCard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+        background-color: #ffffff;
+        box-shadow: 5px 5px 20px rgba(203, 205, 211, 0.1);
+        padding: 16px;
+        top: 1rem;
+        width: 100%;
+        min-height: 175px;
+        margin: 15px;
+        border-radius: 4px;
+        transition: box-shadow 0.3s ease;
+    }
+    #taskInput {
+        font-size: 18px;
+        padding: 12px;
+    }
+}
